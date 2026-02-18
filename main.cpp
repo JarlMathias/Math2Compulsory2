@@ -1,9 +1,13 @@
+#include "Matrix/Matrix.h"
 #include <iostream>
 using namespace std;
 
 int main()
 {
-	std::cout << "Hellot test";
+	Matrix matrix1;
+
+	matrix1.read();
+	matrix1.print();
 
 	return 0;
 }
