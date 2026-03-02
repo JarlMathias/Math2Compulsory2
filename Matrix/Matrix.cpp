@@ -127,31 +127,18 @@ double Matrix::determinant()
     return 0.0;
 }
 
-//Matrix Matrix::inverse()
-//{
-//    //Matrix inv;
-//    //if (m != n) {
-//    //    std::cout << "Inverse not defined" << std::endl;
-//
-//    //}
-//    //double detA = determinant();
-//    //if (detA == 0) {
-//    //    std::cout << "Matrix does not have an inverse" << std::endl;
-//    //}
-//
-//
-//
-//    return Matrix();
-//}
+
 Matrix Matrix::inverse()
 {
     Matrix result;
     Matrix inv;
     double detA = determinant();
+    //Checking if the matrix is square
     if(m != n) {
         std::cout << "Inverse not defined" << std::endl;
         return result;
     }
+    // Checking if the determinant is 0
     if (detA == 0) {
         std::cout << "Matrix does not have an inverse" << std::endl;
         return result;
@@ -160,7 +147,7 @@ Matrix Matrix::inverse()
     if (m == 3)
     {
         Matrix cofactor;
-
+        //Calculating the cofactor for each element
         cofactor.A[0][0] = std::pow(-1, 1 + 1) * (A[1][1] * A[2][2] - A[1][2] * A[2][1]);
         cofactor.A[1][0] = std::pow(-1, 2 + 1) * (A[0][1] * A[2][2] - A[0][2] * A[2][1]);
         cofactor.A[2][0] = std::pow(-1, 3 + 1) * (A[0][1] * A[1][2] - A[0][2] * A[1][1]);
@@ -172,9 +159,9 @@ Matrix Matrix::inverse()
         cofactor.A[2][2] = std::pow(-1, 3 + 3) * (A[0][0] * A[1][1] - A[0][1] * A[1][0]);
 
         
-
+        // Transposing the cofactor matrix
         Matrix adj = cofactor.transpose();
-
+        // Dividing each element in the adjoint matrix with the determinant
         for (int i = 0; i < m; i++)
         {
             for (int j = 0; j < n; j++)
