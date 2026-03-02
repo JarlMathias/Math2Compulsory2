@@ -1,5 +1,6 @@
 #include "Matrix.h"
 
+// Initializes the matrix and sets its size to 3x3
 Matrix::Matrix()
 {
     m = 3;
@@ -10,6 +11,7 @@ Matrix::Matrix()
             A[i][j] = 0;
 }
 
+// Adds two matrixes together by adding each corresponding value together
 Matrix Matrix::add(Matrix Other) {
     Matrix result;
     for (int i = 0; i < m; i++) {
@@ -21,6 +23,7 @@ Matrix Matrix::add(Matrix Other) {
     return result;
 }
 
+// Function which sets each value in a matrix decided by player input
 void Matrix::read()
 {
 //    std::cout << "Create Matrix: " << std::endl;
@@ -35,7 +38,7 @@ void Matrix::read()
     }
 }
 
-
+// Function which prints out the values in a matrix
 void Matrix::print()
 {
 //    std::cout << "Printing Matrix:" << std::endl;
@@ -90,8 +93,12 @@ Matrix Matrix::transpose()
     return result;
 }
 
+
+// Finds the determinant of the matrix
 double Matrix::determinant()
 {
+    
+    // Depending on the size of the matrix (either 1x1, 2x2 or 3x3) the function calculates the determinant in different ways
     if (m != n)
     {
         std::cout << "Determinant not defined for non-square matrices" << std::endl;
