@@ -36,8 +36,8 @@ int main()
 	I.print();
 
 
-	Vector3D result = A.multiply(v);
-	cout << " Result of A * V: " << endl;
+	Vector3D result = I.multiply(v);
+	cout << " Result of A^(-1) * Vector3: " << endl;
 	result.print();
 
 	return 0;

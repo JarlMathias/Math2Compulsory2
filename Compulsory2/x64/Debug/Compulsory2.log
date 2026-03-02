@@ -1,5 +1,6 @@
-﻿  main.cpp
-  Matrix.cpp
+﻿  Matrix.cpp
   Vector3D.cpp
+  main.cpp
   Generating Code...
-  Compulsory2.vcxproj -> C:\Users\thoma\Documents\GitHub\Math2Compulsory2\x64\Debug\Compulsory2.exe
+  LINK : C:\Users\oskar\Documents\GitHubGT\Math2Compulsory2\x64\Debug\Compulsory2.exe not found or not built by the last incremental link; performing full link
+  Compulsory2.vcxproj -> C:\Users\oskar\Documents\GitHubGT\Math2Compulsory2\x64\Debug\Compulsory2.exe
