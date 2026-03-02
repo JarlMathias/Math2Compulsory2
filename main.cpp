@@ -28,5 +28,10 @@ int main()
 
 	cout << "Determinant of A: " << A.determinant() << endl;
 
+	Matrix I =A.inverse();
+	cout << "Inverse of A:" << endl;
+	I.print();
+	
+
 	return 0;
 }

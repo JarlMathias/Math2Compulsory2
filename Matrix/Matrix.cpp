@@ -118,11 +118,56 @@ double Matrix::determinant()
     return 0.0;
 }
 
+//Matrix Matrix::inverse()
+//{
+//    //Matrix inv;
+//    //if (m != n) {
+//    //    std::cout << "Inverse not defined" << std::endl;
+//
+//    //}
+//    //double detA = determinant();
+//    //if (detA == 0) {
+//    //    std::cout << "Matrix does not have an inverse" << std::endl;
+//    //}
+//
+//
+//
+//    return Matrix();
+//}
 Matrix Matrix::inverse()
 {
-    return Matrix();
-}
+    Matrix result;
 
+    if (m == 3)
+    {
+        Matrix cofactor;
+
+        cofactor.A[0][0] = std::pow(-1, 1 + 1) * (A[1][1] * A[2][2] - A[1][2] * A[2][1]);
+        cofactor.A[1][0] = std::pow(-1, 2 + 1) * (A[0][1] * A[2][2] - A[0][2] * A[2][1]);
+        cofactor.A[2][0] = std::pow(-1, 3 + 1) * (A[0][1] * A[1][2] - A[0][2] * A[1][1]);
+        cofactor.A[0][1] = std::pow(-1, 1 + 2) * (A[1][0] * A[2][2] - A[1][2] * A[2][0]);
+        cofactor.A[1][1] = std::pow(-1, 2 + 2) * (A[0][0] * A[2][2] - A[0][2] * A[2][0]);
+        cofactor.A[2][1] = std::pow(-1, 3 + 2) * (A[0][0] * A[1][2] - A[0][2] * A[1][0]);
+        cofactor.A[0][2] = std::pow(-1, 1 + 3) * (A[1][0] * A[2][1] - A[1][1] * A[2][0]);
+        cofactor.A[1][2] = std::pow(-1, 2 + 3) * (A[0][0] * A[2][1] - A[0][1] * A[2][0]);
+        cofactor.A[2][2] = std::pow(-1, 3 + 3) * (A[0][0] * A[1][1] - A[0][1] * A[1][0]);
+
+        
+
+        Matrix adj = cofactor.transpose();
+
+        for (int i = 0; i < m; i++)
+        {
+            for (int j = 0; j < n; j++)
+            {
+                result.A[i][j] = adj.A[i][j] * (1 / determinant());
+            }
+        }
+    }
+
+    
+    return result;
+}
 Vector3D Matrix::multiply(Vector3D v)
 {
     return Vector3D();
