@@ -6,6 +6,7 @@ class Matrix
 {
 public:
     Matrix();
+    Matrix add(Matrix B);
     void read();
     void print();
     Matrix multiply(Matrix other);
