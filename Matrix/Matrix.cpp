@@ -183,10 +183,10 @@ Vector3D Matrix::multiply(Vector3D v)
     Vector3D result;
 
     for(int i = 0; i < 3; i++) {
-        result.v[i] = 0;
+        result.Vectorpunkt[i] = 0;
 
         for (int j = 0; j < 3; j++) {
-            result.v[i] += A[i][j] * v.v[j];
+            result.Vectorpunkt[i] += A[i][j] * v.Vectorpunkt[j];
         }
     }
 

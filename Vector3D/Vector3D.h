@@ -4,7 +4,7 @@
 class Vector3D
 {
 private:
-	double v[3];
+	double Vectorpunkt[3];
 
 public:
 	void read();

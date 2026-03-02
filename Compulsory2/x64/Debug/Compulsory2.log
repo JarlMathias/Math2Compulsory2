@@ -1,4 +1,5 @@
 ﻿  main.cpp
   Matrix.cpp
+  Vector3D.cpp
   Generating Code...
-C:\Users\thoma\Documents\GitHub\Math2Compulsory2\main.cpp(38,1): error C4700: uninitialized local variable 'v' used
+  Compulsory2.vcxproj -> C:\Users\thoma\Documents\GitHub\Math2Compulsory2\x64\Debug\Compulsory2.exe

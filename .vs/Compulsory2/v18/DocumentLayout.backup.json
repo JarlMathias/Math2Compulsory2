@@ -15,12 +15,12 @@
       "RelativeMoniker": "D:0:0:{7AA4AC80-5DE2-4F0B-B9CA-5EDD4B10F85A}|Compulsory2.vcxproj|solutionrelative:Vector3D\\Vector3D.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AA4AC80-5DE2-4F0B-B9CA-5EDD4B10F85A}|Compulsory2.vcxproj|C:\\Users\\thoma\\Documents\\GitHub\\Math2Compulsory2\\Matrix\\Matrix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7AA4AC80-5DE2-4F0B-B9CA-5EDD4B10F85A}|Compulsory2.vcxproj|solutionrelative:Matrix\\Matrix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7AA4AC80-5DE2-4F0B-B9CA-5EDD4B10F85A}|Compulsory2.vcxproj|C:\\Users\\thoma\\Documents\\GitHub\\Math2Compulsory2\\Matrix\\Matrix.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{7AA4AC80-5DE2-4F0B-B9CA-5EDD4B10F85A}|Compulsory2.vcxproj|solutionrelative:Matrix\\Matrix.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA4AC80-5DE2-4F0B-B9CA-5EDD4B10F85A}|Compulsory2.vcxproj|C:\\Users\\thoma\\Documents\\GitHub\\Math2Compulsory2\\Matrix\\Matrix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7AA4AC80-5DE2-4F0B-B9CA-5EDD4B10F85A}|Compulsory2.vcxproj|solutionrelative:Matrix\\Matrix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,9 +38,9 @@
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\thoma\\Documents\\GitHub\\Math2Compulsory2\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "C:\\Users\\thoma\\Documents\\GitHub\\Math2Compulsory2\\main.cpp*",
-              "RelativeToolTip": "main.cpp*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\thoma\\Documents\\GitHub\\Math2Compulsory2\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-03-02T08:11:22.335Z",
               "IsPinned": true,
@@ -48,7 +48,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Matrix.h",
               "DocumentMoniker": "C:\\Users\\thoma\\Documents\\GitHub\\Math2Compulsory2\\Matrix\\Matrix.h",
               "RelativeDocumentMoniker": "Matrix\\Matrix.h",
@@ -62,13 +62,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Matrix.cpp",
               "DocumentMoniker": "C:\\Users\\thoma\\Documents\\GitHub\\Math2Compulsory2\\Matrix\\Matrix.cpp",
               "RelativeDocumentMoniker": "Matrix\\Matrix.cpp",
               "ToolTip": "C:\\Users\\thoma\\Documents\\GitHub\\Math2Compulsory2\\Matrix\\Matrix.cpp",
               "RelativeToolTip": "Matrix\\Matrix.cpp",
-              "ViewState": "AgIAAJAAAAAAAAAAAAAAAL8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAAALcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-03-02T08:11:21.865Z",
               "EditorCaption": ""
@@ -81,7 +81,7 @@
               "RelativeDocumentMoniker": "Vector3D\\Vector3D.h",
               "ToolTip": "C:\\Users\\thoma\\Documents\\GitHub\\Math2Compulsory2\\Vector3D\\Vector3D.h",
               "RelativeToolTip": "Vector3D\\Vector3D.h",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-03-02T19:04:35.915Z",
               "EditorCaption": ""
@@ -94,7 +94,7 @@
               "RelativeDocumentMoniker": "Vector3D\\Vector3D.cpp",
               "ToolTip": "C:\\Users\\thoma\\Documents\\GitHub\\Math2Compulsory2\\Vector3D\\Vector3D.cpp",
               "RelativeToolTip": "Vector3D\\Vector3D.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-03-02T08:11:24.09Z",
               "EditorCaption": ""

@@ -7,6 +7,7 @@ int main()
 {
 	Matrix A, B, C;
 	Vector3D v;
+	v.read();
 
 	cout << "Enter Matrix A: " << endl;
 	A.read();
@@ -33,7 +34,7 @@ int main()
 	Matrix I =A.inverse();
 	cout << "Inverse of A:" << endl;
 	I.print();
-	
+
 
 	Vector3D result = A.multiply(v);
 	cout << " Result of A * V: " << endl;

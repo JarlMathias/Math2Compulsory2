@@ -6,7 +6,7 @@ void Vector3D::read() {
 	for (int i = 0; i < 3; i++)
 	{
 		std::cout << "v[" << i << "] = ";
-		std::cin >> v[i];
+		std::cin >> Vectorpunkt[i];
 	}
 }
 
@@ -15,5 +15,5 @@ void Vector3D::print()
 	std::cout << "Vector: " << std::endl;
 
 	for (int i = 0; i < 3; i++)
-		std::cout << v[i] << std::endl;
+		std::cout << Vectorpunkt[i] << std::endl;
 }
