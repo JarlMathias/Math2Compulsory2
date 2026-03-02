@@ -12,15 +12,19 @@ int main()
 	cout << "Enter Matrix B: " << endl;
 	B.read();
 
-	C = A.multiply(B);
+	cout << "Printing Matrix A: " << endl;
+	A.print();
 
-	cout << "A * B = " << endl;
+	cout << "Printing Matrix B: " << endl;
+	B.print();
+
+	C = A.multiply(B);
+	cout << "Printing A * B: " << endl;
 	C.print();
 
-//	Matrix T = A.transpose();
-
-//	cout << "Transpose of A:" << endl;
-//	T.print();
+	Matrix T = A.transpose();
+	cout << "Transpose of A:" << endl;
+	T.print();
 
 	return 0;
 }

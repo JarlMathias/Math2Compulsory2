@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "C:\\Users\\thoma\\Documents\\GitHub\\Math2Compulsory2\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-03-02T08:11:22.335Z",
               "IsPinned": true,
@@ -50,7 +50,7 @@
               "RelativeDocumentMoniker": "Matrix\\Matrix.cpp",
               "ToolTip": "C:\\Users\\thoma\\Documents\\GitHub\\Math2Compulsory2\\Matrix\\Matrix.cpp",
               "RelativeToolTip": "Matrix\\Matrix.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-03-02T08:11:21.865Z",
               "EditorCaption": ""
@@ -65,8 +65,7 @@
               "RelativeToolTip": "Matrix\\Matrix.h",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-03-02T08:31:09.918Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-02T08:31:09.918Z"
             },
             {
               "$type": "Document",
@@ -78,8 +77,7 @@
               "RelativeToolTip": "Vector3D\\Vector3D.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-03-02T08:11:24.09Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-02T08:11:24.09Z"
             }
           ]
         }

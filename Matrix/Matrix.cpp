@@ -44,7 +44,7 @@ void Matrix::print()
     {
         for (int j = 0; j < n; j++)
         {
-            std::cout << A[i][j];
+            std::cout << A[i][j] << " ";
         }
         std::cout << std::endl;
     }
@@ -62,16 +62,20 @@ Matrix Matrix::multiply(Matrix Other)
 
         for (int i = 0; i < m; i++) 
         {
-            for (int j = 0; j < n; j++) 
+            for (int j = 0; j < Other.n; j++) 
             {
 
                 result.A[i][j] = 0;
+
                 for (int k = 0; k < n; k++)
                 {
                     result.A[i][j] += A[i][k] * Other.A[k][j];
                 }
             }
         }
+        result.m = m;
+        result.n = Other.n;
+
         return result;
 }
 
