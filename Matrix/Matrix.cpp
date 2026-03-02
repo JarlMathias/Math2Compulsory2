@@ -10,12 +10,12 @@ Matrix::Matrix()
             A[i][j] = 0;
 }
 
-Matrix Matrix::add(Matrix B) {
+Matrix Matrix::add(Matrix Other) {
     Matrix result;
     for (int i = 0; i < m; i++) {
         for (int j = 0; j < n; j++) {
 
-            result.A[i][j] = A[i][j] + B.A[i][j];
+            result.A[i][j] = A[i][j] + Other.A[i][j];
         }
     }
     return result;
@@ -23,14 +23,14 @@ Matrix Matrix::add(Matrix B) {
 
 void Matrix::read()
 {
-    std::cout << "Create Matrix: " << std::endl;
+//    std::cout << "Create Matrix: " << std::endl;
     
     for (int i = 0; i < m; i++)
     {
         for (int j = 0; j < n; j++)
         {
             std::cout << i + 1 << j + 1 << ": ";
-            std::cin >> A[i][j];+
+            std::cin >> A[i][j];
         }
     }
 }
@@ -38,7 +38,7 @@ void Matrix::read()
 
 void Matrix::print()
 {
-    std::cout << "Printing Matrix:" << std::endl;
+//    std::cout << "Printing Matrix:" << std::endl;
     
     for (int i = 0; i < m; i++)
     {
@@ -50,14 +50,38 @@ void Matrix::print()
     }
 }
 
-Matrix Matrix::multiply(Matrix other)
+Matrix Matrix::multiply(Matrix Other)
 {
-    return Matrix();
+        Matrix result;
+
+        if (n != Other.m) {
+            std::cout << "Multiplication not defined" << std::endl;
+            return result;
+        }
+
+
+        for (int i = 0; i < m; i++) 
+        {
+            for (int j = 0; j < n; j++) 
+            {
+
+                result.A[i][j] = 0;
+                for (int k = 0; k < n; k++)
+                {
+                    result.A[i][j] += A[i][k] * Other.A[k][j];
+                }
+            }
+        }
+        return result;
 }
 
 Matrix Matrix::transpose()
 {
-    return Matrix();
+    Matrix result;
+    for (int i = 0; i < m; i++)
+        for (int j = 0; j < n; j++)
+            result.A[j][i] = A[i][j];
+    return result;
 }
 
 double Matrix::determinant()

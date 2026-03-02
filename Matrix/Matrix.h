@@ -6,13 +6,18 @@ class Matrix
 {
 public:
     Matrix();
-    Matrix add(Matrix B);
+
+    Matrix add(Matrix Other);
+    Matrix multiply(Matrix Other);
+    Matrix transpose();
+
     void read();
     void print();
-    Matrix multiply(Matrix other);
-    Matrix transpose();
+
+
     double determinant();
     Matrix inverse();
+
     Vector3D multiply(Vector3D v);
 
 private:
