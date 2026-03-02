@@ -26,5 +26,7 @@ int main()
 	cout << "Transpose of A:" << endl;
 	T.print();
 
+	cout << "Determinant of A: " << A.determinant() << endl;
+
 	return 0;
 }

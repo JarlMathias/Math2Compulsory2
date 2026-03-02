@@ -90,6 +90,31 @@ Matrix Matrix::transpose()
 
 double Matrix::determinant()
 {
+    if (m != n)
+    {
+        std::cout << "Determinant not defined for non-square matrices" << std::endl;
+        return 0.0;
+    }
+
+    if (m == 1)
+    {
+        return A[0][0];
+    }
+
+    if (m == 2)
+    {
+        return A[0][0] * A[1][1] - A[0][1] * A[1][0];
+    }
+
+    if (m == 3)
+    {
+        return
+            A[0][0] * (A[1][1] * A[2][2] - A[1][2] * A[2][1]) -
+            A[0][1] * (A[1][0] * A[2][2] - A[1][2] * A[2][0]) +
+            A[0][2] * (A[1][0] * A[2][1] - A[1][1] * A[2][0]);
+    }
+
+    std::cout << "Determinant only implemented for 1x1, 2x2, and 3x3 matrices" << std::endl;
     return 0.0;
 }
 
