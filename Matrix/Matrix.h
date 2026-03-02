@@ -2,6 +2,7 @@
 #include <iostream>
 #include "../Vector3D/Vector3D.h"
 
+
 class Matrix
 {
 public:
@@ -9,6 +10,7 @@ public:
 
     Matrix add(Matrix Other);
     Matrix multiply(Matrix Other);
+    Vector3D multiply(Vector3D v);
     Matrix transpose();
 
     void read();
@@ -17,8 +19,6 @@ public:
 
     double determinant();
     Matrix inverse();
-
-    Vector3D multiply(Vector3D v);
 
 private:
     static const int M = 10;

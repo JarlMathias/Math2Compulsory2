@@ -180,5 +180,15 @@ Matrix Matrix::inverse()
 }
 Vector3D Matrix::multiply(Vector3D v)
 {
-    return Vector3D();
+    Vector3D result;
+
+    for(int i = 0; i < 3; i++) {
+        result.v[i] = 0;
+
+        for (int j = 0; j < 3; j++) {
+            result.v[i] += A[i][j] * v.v[j];
+        }
+    }
+
+    return result;
 }

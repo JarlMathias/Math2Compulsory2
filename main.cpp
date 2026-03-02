@@ -1,10 +1,12 @@
 #include "Matrix/Matrix.h"
+#include "Vector3D/Vector3D.h"
 #include <iostream>
 using namespace std;
 
 int main()
 {
 	Matrix A, B, C;
+	Vector3D v;
 
 	cout << "Enter Matrix A: " << endl;
 	A.read();
@@ -32,6 +34,10 @@ int main()
 	cout << "Inverse of A:" << endl;
 	I.print();
 	
+
+	Vector3D result = A.multiply(v);
+	cout << " Result of A * V: " << endl;
+	result.print();
 
 	return 0;
 }
