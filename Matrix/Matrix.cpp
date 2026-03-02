@@ -137,6 +137,16 @@ double Matrix::determinant()
 Matrix Matrix::inverse()
 {
     Matrix result;
+    Matrix inv;
+    double detA = determinant();
+    if(m != n) {
+        std::cout << "Inverse not defined" << std::endl;
+        return result;
+    }
+    if (detA == 0) {
+        std::cout << "Matrix does not have an inverse" << std::endl;
+        return result;
+    }
 
     if (m == 3)
     {
@@ -160,7 +170,7 @@ Matrix Matrix::inverse()
         {
             for (int j = 0; j < n; j++)
             {
-                result.A[i][j] = adj.A[i][j] * (1 / determinant());
+                result.A[i][j] = adj.A[i][j] * (1 / detA);
             }
         }
     }
