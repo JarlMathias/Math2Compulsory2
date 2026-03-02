@@ -52,21 +52,22 @@ void Matrix::print()
 
 Matrix Matrix::multiply(Matrix Other)
 {
+    //sets a default matrix as 0
         Matrix result;
-
+//checks if its possible to multiply the matrixes
         if (n != Other.m) {
             std::cout << "Multiplication not defined" << std::endl;
             return result;
         }
 
-
+        //sets a for-loop to go through every number in the matrix.
         for (int i = 0; i < m; i++) 
         {
             for (int j = 0; j < Other.n; j++) 
             {
 
                 result.A[i][j] = 0;
-
+//for-loop that multiplies the two matrixes together if possible
                 for (int k = 0; k < n; k++)
                 {
                     result.A[i][j] += A[i][k] * Other.A[k][j];
@@ -81,6 +82,7 @@ Matrix Matrix::multiply(Matrix Other)
 
 Matrix Matrix::transpose()
 {
+    //for-loop that goes trough all the number and flips the other of rows and coloums.
     Matrix result;
     for (int i = 0; i < m; i++)
         for (int j = 0; j < n; j++)
@@ -178,13 +180,16 @@ Matrix Matrix::inverse()
     
     return result;
 }
+
+
 Vector3D Matrix::multiply(Vector3D v)
 {
     Vector3D result;
-
+// for loop which puts each number that you put into the calculator at the right localtion in the matrix
     for(int i = 0; i < 3; i++) {
         result.Vectorpunkt[i] = 0;
 
+// takes the vectorPoints and multiplies them with the first Matrix
         for (int j = 0; j < 3; j++) {
             result.Vectorpunkt[i] += A[i][j] * v.Vectorpunkt[j];
         }

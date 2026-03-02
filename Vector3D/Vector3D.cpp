@@ -1,5 +1,6 @@
 #include "Vector3D.h"
 
+// Asks and reads the inputs for the Vectors
 void Vector3D::read() {
 	std::cout << "Enter vector values: " << std::endl;
 
@@ -10,6 +11,7 @@ void Vector3D::read() {
 	}
 }
 
+// Prints the input of the different Vectors.
 void Vector3D::print()
 {
 	std::cout << "Vector: " << std::endl;

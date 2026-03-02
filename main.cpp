@@ -31,10 +31,9 @@ int main()
 
 	cout << "Determinant of A: " << A.determinant() << endl;
 
-	Matrix I =A.inverse();
+	Matrix I = A.inverse();
 	cout << "Inverse of A:" << endl;
 	I.print();
-
 
 	Vector3D result = I.multiply(v);
 	cout << " Result of A^(-1) * Vector3: " << endl;
