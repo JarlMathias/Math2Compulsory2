@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\thoma\\Documents\\GitHub\\Math2Compulsory2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7AA4AC80-5DE2-4F0B-B9CA-5EDD4B10F85A}|Compulsory2.vcxproj|C:\\Users\\thoma\\Documents\\GitHub\\Math2Compulsory2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7AA4AC80-5DE2-4F0B-B9CA-5EDD4B10F85A}|Compulsory2.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7AA4AC80-5DE2-4F0B-B9CA-5EDD4B10F85A}|Compulsory2.vcxproj|C:\\Users\\thoma\\Documents\\GitHub\\Math2Compulsory2\\Matrix\\Matrix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{7AA4AC80-5DE2-4F0B-B9CA-5EDD4B10F85A}|Compulsory2.vcxproj|solutionrelative:Matrix\\Matrix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA4AC80-5DE2-4F0B-B9CA-5EDD4B10F85A}|Compulsory2.vcxproj|C:\\Users\\thoma\\Documents\\GitHub\\Math2Compulsory2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7AA4AC80-5DE2-4F0B-B9CA-5EDD4B10F85A}|Compulsory2.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7AA4AC80-5DE2-4F0B-B9CA-5EDD4B10F85A}|Compulsory2.vcxproj|C:\\Users\\thoma\\Documents\\GitHub\\Math2Compulsory2\\Matrix\\Matrix.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\thoma\\Documents\\GitHub\\Math2Compulsory2\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
@@ -44,13 +44,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Matrix.cpp",
               "DocumentMoniker": "C:\\Users\\thoma\\Documents\\GitHub\\Math2Compulsory2\\Matrix\\Matrix.cpp",
               "RelativeDocumentMoniker": "Matrix\\Matrix.cpp",
               "ToolTip": "C:\\Users\\thoma\\Documents\\GitHub\\Math2Compulsory2\\Matrix\\Matrix.cpp",
               "RelativeToolTip": "Matrix\\Matrix.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAFoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-03-02T08:11:21.865Z",
               "EditorCaption": ""
@@ -65,8 +65,7 @@
               "RelativeToolTip": "Matrix\\Matrix.h",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-03-02T08:31:09.918Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-02T08:31:09.918Z"
             },
             {
               "$type": "Document",
@@ -78,8 +77,7 @@
               "RelativeToolTip": "Vector3D\\Vector3D.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-03-02T08:11:24.09Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-02T08:11:24.09Z"
             }
           ]
         }
